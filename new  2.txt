@@ -1,0 +1,7 @@
+.success(function(data){
+                            window.location = 'cases'
+                        })
+                            .error(function(data){
+                                window.location='cases'
+                            })
+                        ;
