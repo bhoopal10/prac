@@ -1,0 +1,11 @@
+$(document).ready( function() { 
+                var cur_year=new Date().getFullYear();
+                var obj=document.getElementById("yr");         
+                for (var i = 2000; i <= 2012; i++)     {                
+                    opt = document.createElement("option");
+                    opt.value = i;
+                    opt.text=i;
+                    obj.appendChild(opt);
+                }
+                document.getElementById("yr").value = cur_year;
+            });
